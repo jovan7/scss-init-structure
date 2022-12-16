@@ -1,0 +1,28 @@
+@import "../abstracts/functions";
+
+// Font Setup
+$h1-font: toRem(60);
+$h2-font: toRem(24);
+$h3-font: toRem(20);
+$h4-font: toRem(13);
+$h5-font: toRem(12);
+$body-font: toRem(16);
+
+$font-lightest: 100;
+$font-lighter: 200;
+$font-light: 300;
+$font-normal: 400;
+$font-medium: 500;
+$font-semiBold: 600;
+$font-bold: 700;
+
+$h1-line-height: toRem(85);
+$h2-line-height: toRem(24);
+$h3-line-height: toRem(22);
+$h4-line-height: toRem(20);
+$h5-line-height: toRem(18);
+$body-line-height: toRem(22);
+$body-s-line-height: toRem(20);
+$body-xs-line-height: toRem(18);
+$caption-line-height: toRem(16);
+$link-line-height: toRem(20);

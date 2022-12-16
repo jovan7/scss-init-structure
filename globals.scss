@@ -1,0 +1,43 @@
+@import "./base/typography";
+@import "./abstracts/variables";
+@import "./base/utilities";
+
+:root {
+  --root-font-size: 16px;
+  --white: #F5F5F5;
+  --black: #000;
+  --black-light: #111517;
+  --accent: #292929;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+html {
+  font-size: var(--root-font-size);
+}
+
+body {
+  background-color: var(--white);
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

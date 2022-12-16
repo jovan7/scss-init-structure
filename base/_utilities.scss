@@ -1,0 +1,30 @@
+@import "../abstracts/mixins";
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.flex {
+  @include flexbox;
+}
+
+.center-all {
+  @include justify-content(center);
+  @include align-items(center);
+}
+
+.align-items-center {
+  @include align-items(center);
+}
+
+.flex-direction--column {
+  @include flex-direction(column);
+}
+
+.justify-content-between {
+  @include justify-content(space-between);
+}
+
+.justify-content-end {
+  @include justify-content(flex-end);
+}

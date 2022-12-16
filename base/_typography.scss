@@ -1,0 +1,46 @@
+@import "../abstracts/variables";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  padding: 0;
+  margin: 0;
+  font-weight: $font-normal;
+  color: var(--black);
+}
+
+h1 {
+  font-size: $h1-font;
+  line-height: $h1-line-height;
+  font-weight: $font-normal;
+}
+
+h2 {
+  font-size: $h2-font;
+  line-height: $h2-line-height;
+}
+
+h3 {
+  font-size: $h3-font;
+  line-height: $h3-line-height;
+}
+
+h4 {
+  font-size: $h4-font;
+  line-height: $h4-line-height;
+}
+
+h5 {
+  font-size: $h5-font;
+  line-height: $h5-line-height;
+}
+
+p {
+  font-size: $body-font;
+  line-height: $body-line-height;
+}
